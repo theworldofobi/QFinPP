@@ -475,8 +475,8 @@ private:
                         break;
                     }
                 }
-            else
-            {
+                else
+                {
                     if (price <= barrier)
                     {
                         barrier_triggered = true;
@@ -491,8 +491,8 @@ private:
             {
                     payouts.push_back((path.back() - strike) * std::exp(-r * T));
                 }
-            else
-            {
+                else
+                {
                     payouts.push_back(0.0);
                 }
             }
@@ -502,8 +502,8 @@ private:
             {
                     payouts.push_back((path.back() - strike) * std::exp(-r * T));
                 }
-            else
-            {
+                else
+                {
                     payouts.push_back(0.0);
                 }
             }
@@ -537,8 +537,8 @@ private:
                         break;
                     }
                 }
-            else
-            {
+                else
+                {
                     if (price <= barrier)
                     {
                         barrier_triggered = true;
@@ -553,8 +553,8 @@ private:
             {
                     payouts.push_back((path.back() - strike) * std::exp(-r * T));
                 }
-            else
-            {
+                else
+                {
                     payouts.push_back(0.0);
                 }
             }
@@ -564,8 +564,8 @@ private:
             {
                     payouts.push_back((path.back() - strike) * std::exp(-r * T));
                 }
-            else
-            {
+                else
+                {
                     payouts.push_back(0.0);
                 }
             }
@@ -620,8 +620,8 @@ private:
                         break;
                     }
                 }
-            else
-            {
+                else
+                {
                     if (price <= barrier)
                     {
                         barrier_triggered = true;
@@ -636,8 +636,8 @@ private:
             {
                     payouts.push_back((strike - path.back()) * std::exp(-r * T));
                 }
-            else
-            {
+                else
+                {
                     payouts.push_back(0.0);
                 }
             }
@@ -647,8 +647,8 @@ private:
             {
                     payouts.push_back((strike - path.back()) * std::exp(-r * T));
                 }
-            else
-            {
+                else
+                {
                     payouts.push_back(0.0);
                 }
             }
@@ -682,8 +682,8 @@ private:
                         break;
                     }
                 }
-            else
-            {
+                else
+                {
                     if (price <= barrier)
                     {
                         barrier_triggered = true;
@@ -698,8 +698,8 @@ private:
             {
                     payouts.push_back((strike - path.back()) * std::exp(-r * T));
                 }
-            else
-            {
+                else
+                {
                     payouts.push_back(0.0);
                 }
             }
@@ -709,8 +709,8 @@ private:
             {
                     payouts.push_back((strike - path.back()) * std::exp(-r * T));
                 }
-            else
-            {
+                else
+                {
                     payouts.push_back(0.0);
                 }
             }
@@ -759,8 +759,8 @@ private:
                 {
                     payouts.push_back((avg_price - strike) * std::exp(-r * T));
                 }
-            else
-            {
+                else
+                {
                     payouts.push_back(0.0);
                 }
             }
@@ -788,8 +788,8 @@ private:
                 {
                     payouts.push_back((avg_price - strike) * std::exp(-r * T));
                 }
-            else
-            {
+                else
+                {
                     payouts.push_back(0.0);
                 }
             }
@@ -838,8 +838,8 @@ private:
                 {
                     payouts.push_back((strike - avg_price) * std::exp(-r * T));
                 }
-            else
-            {
+                else
+                {
                     payouts.push_back(0.0);
                 }
             }
@@ -867,8 +867,8 @@ private:
                 {
                     payouts.push_back((strike - avg_price) * std::exp(-r * T));
                 }
-            else
-            {
+                else
+                {
                     payouts.push_back(0.0);
                 }
             }
@@ -923,8 +923,8 @@ private:
                 {
                     payouts.push_back((path2.back() - strike) * std::exp(-r * T));
                 }
-            else
-            {
+                else
+                {
                     payouts.push_back(0.0);
                 }
             }
@@ -959,8 +959,8 @@ private:
                 {
                     payouts.push_back((path2.back() - strike) * std::exp(-r * T));
                 }
-            else
-            {
+                else
+                {
                     payouts.push_back(0.0);
                 }
             }
@@ -1015,8 +1015,8 @@ private:
                 {
                     payouts.push_back((strike - path2.back()) * std::exp(-r * T));
                 }
-            else
-            {
+                else
+                {
                     payouts.push_back(0.0);
                 }
             }
@@ -1051,8 +1051,8 @@ private:
                 {
                     payouts.push_back((strike - path2.back()) * std::exp(-r * T));
                 }
-            else
-            {
+                else
+                {
                     payouts.push_back(0.0);
                 }
             }

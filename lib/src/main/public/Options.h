@@ -240,7 +240,7 @@ private:
     double delta_;
     double gamma_;
     double vega_;
-        double theta_;
+    double theta_;
     };
 } // namespace QFin
 
